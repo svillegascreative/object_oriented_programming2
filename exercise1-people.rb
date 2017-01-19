@@ -6,7 +6,7 @@ class People
 
 end
 
-class Student
+class Student < Person
 
   def initialize
   end
@@ -18,7 +18,7 @@ class Student
 end
 
 
-class Instructor
+class Instructor < Person
 
   def initialize
   end

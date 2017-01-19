@@ -1,3 +1,11 @@
+class People
+
+  def initialize(name)
+    @name = name
+  end
+
+end
+
 class Student
 
   def initialize
